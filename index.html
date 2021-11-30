@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+    <script src="script.js"></script>
+    <title>My TODO Application</title>
+</head>
+<body>
+
+    <section class="banner">
+        <div class="header">
+            <p>Simeon TODO Application</p>
+
+        </div>
+
+        <div id="form-box">
+            <div class="form-class">
+                <label for="task">TASK</label><br>
+
+                <input type="text" placeholder="Input Task here" id="task"><br>
+                <button id="addMe" onclick="addTask()">Add TASK</button>
+
+                <br>
+            </div>
+        </div>
+
+        <div class="todo-list" id="results">
+           <p id="result">list of task todo</p>
+          
+        </div>
+    </section>
+    
+</body>
+</html>
